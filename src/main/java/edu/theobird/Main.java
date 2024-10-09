@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class Main {
 
-    public static JLabel platebox = new JLabel("agh");
+    public static JLabel platebox = new JLabel("");
 
     public static String generate() {
         File codesfile = new File("codes.json");
