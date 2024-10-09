@@ -27,7 +27,6 @@ public class Main {
         DecimalFormat df = new DecimalFormat("00");
         String yearformatted = df.format(year);
 
-        System.out.println(yearformatted);
         String code = null;
         try {
             ObjectMapper objectMapper = new ObjectMapper();
